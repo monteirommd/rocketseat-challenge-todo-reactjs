@@ -1,0 +1,20 @@
+header {
+    background: var(--gray-700);
+    height: 12.5rem;
+}
+
+.contentLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    gap: 0.75rem; 
+}
+
+.contentLogo h1{
+    background-image: linear-gradient(to right, var(--blue), var(--blue-dark));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 3rem;
+}
