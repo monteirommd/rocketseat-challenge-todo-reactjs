@@ -1,12 +1,16 @@
-import styles from './App.module.css'
-import { Header } from './components/Header'
+import { InputTask } from './components/InputTask';
+import { Header } from './components/Header';
 
+import styles from './App.module.css';
 import './global.css'
 
 function App() {
   return (
     <>
-      <Header />    
+      <Header />  
+      <div className={styles.wrapper}> 
+        <InputTask /> 
+      </div>
     </>
   )
 }
