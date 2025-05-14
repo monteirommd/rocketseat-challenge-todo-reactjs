@@ -1,4 +1,4 @@
-header {
+.contentHeader header {
     background: var(--gray-700);
     height: 12.5rem;
 }
